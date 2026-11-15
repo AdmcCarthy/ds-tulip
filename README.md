@@ -1,5 +1,9 @@
 # Tulip
 
+[![Pages](https://github.com/AdmcCarthy/ds-tulip/actions/workflows/pages.yml/badge.svg)](https://github.com/AdmcCarthy/ds-tulip/actions/workflows/pages.yml)
+![Python](https://img.shields.io/badge/python-%E2%89%A53.12-lightgrey)
+[![Licence](https://img.shields.io/badge/licence-MIT%20with%20acknowledgement-lightgrey)](LICENSE)
+
 **What the shelf has left: Norway's remaining oil and gas, field by field, 1971 to today.**
 Live page: https://admccarthy.github.io/ds-tulip/
 
