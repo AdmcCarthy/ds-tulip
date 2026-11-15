@@ -33,7 +33,7 @@ UNIT = 100  # metres per coordinate unit
 YEARS = ["1975", "1985", "1995", "2005", "2015", "2025"]
 SEAS = [("north_sea", "North Sea"), ("norwegian_sea", "Norwegian Sea"), ("barents_sea", "Barents Sea")]
 ATTRIBUTION = (
-    "Base maps: Relief (github.com/AdmcCarthy/Relief), Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, "
+    "Base maps: Relief (github.com/AdmcCarthy/kit-relief), Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, "
     "provided under COPERNICUS by the European Union and ESA; EMODnet Bathymetry Consortium (2024), EMODnet Digital Bathymetry (DTM); "
     "east of 43°E (the Barents Sea map), NOAA NCEI (2022), ETOPO 2022 15 Arc-Second Global Relief Model."
 )

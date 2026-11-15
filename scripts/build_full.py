@@ -75,7 +75,7 @@ def main(site: Path) -> None:
 </header>
 <main><div id="fig"></div></main>
 <footer>
-  <span><b>Source</b>{html.escape(src['name'])}, accessed {src['accessed']}; analysis admccarthy.github.io/Tulip</span>
+  <span><b>Source</b>{html.escape(src['name'])}, accessed {src['accessed']}; analysis admccarthy.github.io/ds-tulip</span>
   <span><b>Method</b>Sodir's 31.12.2025 estimate plus production since each month (hindsight); smoothed over about a year</span>
   <span><b>Units</b><span id="unit-note">million Sm³ o.e.; 1 Sm³ o.e. = 6.29 boe</span></span>
   <span><b>Confidence</b>Derived</span>

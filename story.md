@@ -29,7 +29,7 @@ sources:
     note: Totals by resource class (norskpetroleum.no spreadsheet)
   sodir_relief:
     name: Sodir FactPages and FactMaps; base maps Relief (Copernicus DEM GLO-90, EMODnet Bathymetry, NOAA ETOPO 2022)
-    url: https://github.com/AdmcCarthy/Relief
+    url: https://github.com/AdmcCarthy/kit-relief
     accessed: 2026-11-09
     note: Quadrants and field reserves from Sodir (NLOD 2.0). Land heights Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, provided under COPERNICUS by the European Union and ESA; sea-floor depths EMODnet Bathymetry Consortium (2024), generalised by Relief to a 2 km cell (4 km for the Barents Sea). East of 43°E (the Barents Sea map) the sea floor is NOAA NCEI (2022), ETOPO 2022 15 Arc-Second Global Relief Model (public domain).
 data:
