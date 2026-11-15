@@ -7,7 +7,7 @@ tulip, bulb or flower (or stem, neck, bloom) in reader-facing text. Plain words:
 
 Voice and structure of written work (README, docs, published pages) follow Idiom's CORE.md and house style: British English, impersonal, one creative headline then plain varied headings, a section ends on its last point. The import is harmless when the file is absent (CI).
 
-A SubScout story (github.com/AdmcCarthy/kit-subscout) on NCS remaining reserves over time. Owner: Adam
+A SubScout story (github.com/AdmcCarthy/core-subscout) on NCS remaining reserves over time. Owner: Adam
 McCarthy, petroleum geoscience domain expert. Follow SubScout's CLAUDE.md and styleguide.
 
 - Key figure: three linked vertical stream graphs on one scale (liquids, gas, oil equivalent), time running UP
