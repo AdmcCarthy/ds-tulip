@@ -79,7 +79,7 @@ export default function create(el, { bulb: B }, opts = {}) {
   const peakP = PANELS.map((p, j) => (p.key === "oe" && !only ? B.peak : d3.max(RAWP[j])));
   const maxW = PANELS.map((_, j) => d3.max(LAY[j].tot));
 
-  el.innerHTML = "";
+  el.replaceChildren();
   el.classList.add("tl-bulb");
   // full width: an export artboard centres its chart in a flex box, which would otherwise shrink this wrapper (all its children are absolute or sized by it)
   const wrap = d3.select(el).append("div").style("position", "relative").style("width", "100%");

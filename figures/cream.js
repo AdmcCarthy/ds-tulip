@@ -5,7 +5,7 @@ export default function create(el, { bulb: B }, opts = {}) {
   const drawLegend = () => classLegend(opts.legendEl, B.classes);
   drawLegend();
   const data = B.fields.filter((f) => f.discovered && f.rec_liq + f.rec_gas > 0);
-  el.innerHTML = "";
+  el.replaceChildren();
   const svg = d3.select(el).append("svg").style("display", "block").style("width", "100%");
   let W = 0;
   function draw(width) {

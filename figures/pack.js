@@ -9,7 +9,7 @@ export default function create(el, { bulb: B }, opts = {}) {
   drawLegend();
   const F = B.fields;
   const title = (k) => B.hub_names[k] ?? k.split(" ").map((w) => w[0] + w.slice(1).toLowerCase()).join(" ");
-  el.innerHTML = "";
+  el.replaceChildren();
   const svg = d3.select(el).append("svg").style("display", "block").style("width", "100%").style("overflow", "hidden");
   let W = 0, H = 0, root = null, view = null, focus = null, cur = {};
   const ti = (t) => (t === "rec" || t == null ? null : t === "now" ? B.dates.length - 1 : B.dates.indexOf(t));

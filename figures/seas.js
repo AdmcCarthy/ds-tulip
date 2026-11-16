@@ -13,7 +13,7 @@ const RAMP = {
 let uid = 0;
 
 export default function create(el, { seas: S }) {
-  el.innerHTML = "";
+  el.replaceChildren();
   const legend = d3.select(el).append("div").attr("class", "tl-legend");
   const svg = d3.select(el).append("svg").attr("class", "tl-seas").style("display", "block").style("width", "100%").style("height", "auto").style("overflow", "hidden").attr("role", "img")
     .attr("aria-label", "Remaining reserves by quadrant in the North Sea, the Norwegian Sea and the Barents Sea at the end of each snapshot year, one row per year");
